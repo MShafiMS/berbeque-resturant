@@ -110,7 +110,7 @@ const Offer = () => {
               <div className="modal-box bg-opacity-0 rounded-none p-0 max-w-xl relative">
                 <label
                   htmlFor="my-modal-3"
-                  className="btn-sm text-gray-400 font-bold btn-square absolute -right-4 top-2"
+                  className="btn-sm cursor-pointer text-gray-400 font-bold btn-square absolute -right-4 top-2"
                 >
                   ✕
                 </label>

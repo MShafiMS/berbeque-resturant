@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import React, { useRef } from "react";
+import { AiOutlineMenu } from "react-icons/ai";
 import { GoPrimitiveDot } from "react-icons/go";
 import { Link, NavLink } from "react-router-dom";
 
@@ -11,6 +12,58 @@ const Navbar = () => {
   let deactiveClass = "hidden";
   return (
     <div>
+      <div className="lg:hidden bg-black">
+        <div className="py-5 w-full">
+          <a className="btn hover:bg-opacity-0 btn-ghost block lg:hidden normal-case text-xl">
+            <img
+              src="http://www.pixel-industry.com/html/royal-plate/img/logo.png"
+              className="w-32 mx-auto"
+              alt=""
+            />
+          </a>
+        </div>
+        <div className="block w-11/12 mx-auto mt-8">
+          <div className="dropdown w-full my-4">
+            <label
+              tabIndex={0}
+              className="flex items-center text-xl p-2 text-white uppercase
+             bg-[#252525] border-none w-full rounded-none"
+            >
+              <AiOutlineMenu />
+              <span className="ml-2">Open Menu</span>
+            </label>
+            <ul
+              tabIndex={0}
+              className="menu  dropdown-content text-white bg-[#252525] text-sm normal-case w-full mt-2"
+            >
+              <li className="py-1 hover:bg-[#363636] hover:text-primary border-b border-[#3c3c3c]">
+                <Link to={"/"}>Home</Link>
+              </li>
+              <li className="py-1 hover:bg-[#363636] hover:text-primary border-b border-[#3c3c3c]">
+                <a>About</a>
+              </li>
+              <li className="py-1 hover:bg-[#363636] hover:text-primary border-b border-[#3c3c3c]">
+                <Link to={"/menu"}>Menu</Link>
+              </li>
+              <li className="py-1 hover:bg-[#363636] hover:text-primary border-b border-[#3c3c3c]">
+                <a>Reservations</a>
+              </li>
+              <li className="py-1 hover:bg-[#363636] hover:text-primary border-b border-[#3c3c3c]">
+                <a>Catering</a>
+              </li>
+              <li className="py-1 hover:bg-[#363636] hover:text-primary border-b border-[#3c3c3c]">
+                <a>Gallery</a>
+              </li>
+              <li className="py-1 hover:bg-[#363636] hover:text-primary border-b border-[#3c3c3c]">
+                <a>Blog</a>
+              </li>
+              <li className="py-1 hover:bg-[#363636] hover:text-primary border-b border-[#3c3c3c]">
+                <a>Contack</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -18,67 +71,14 @@ const Navbar = () => {
       >
         <div className="flex w-full items-center justify-between px-10 fixed z-50 text-white">
           <div>
-            <div className="dropdown">
-              <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h8m-8 6h16"
-                  />
-                </svg>
-              </label>
-              <ul
-                tabIndex={0}
-                className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-              >
-                <li>
-                  <a>Home</a>
-                </li>
-                <li tabIndex={0}>
-                  <a className="justify-between">
-                    Parent
-                    <svg
-                      className="fill-current"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                    </svg>
-                  </a>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a>Item 3</a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <a className="btn btn-ghost normal-case text-xl">
-                <img
-                  src="http://www.pixel-industry.com/html/royal-plate/img/logo.png"
-                  alt=""
-                />
-              </a>
-            </div>
+            <a className="btn btn-ghost hidden lg:block normal-case text-xl">
+              <img
+                src="http://www.pixel-industry.com/html/royal-plate/img/logo.png"
+                alt=""
+              />
+            </a>
           </div>
-          <div className="hidden lg:flex">
+          <div className="hidden lg:flex mt-10">
             <ul className="menu menu-horizontal uppercase">
               <li>
                 <NavLink
@@ -154,61 +154,10 @@ const Navbar = () => {
         whileInView={{ opacity: 0 }}
         viewport={{ root: scrollRef }}
       >
-        <div className="flex bg-black bg-opacity-80 w-full items-center justify-between gap-7 px-10 fixed z-50 text-white">
+        <div className="lg:flex py-4 hidden bg-black bg-opacity-90 w-full items-center justify-between gap-7 px-10 fixed z-50 text-white">
           <div>
-            <div className="dropdown">
-              <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h8m-8 6h16"
-                  />
-                </svg>
-              </label>
-              <ul
-                tabIndex={0}
-                className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-              >
-                <li>
-                  <a>Item 1</a>
-                </li>
-                <li tabIndex={0}>
-                  <a className="justify-between">
-                    Parent
-                    <svg
-                      className="fill-current"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                    </svg>
-                  </a>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a>Item 3</a>
-                </li>
-              </ul>
-            </div>
             <div>
-              <a className="btn btn-ghost normal-case text-xl">
+              <a className="btn btn-ghost hidden lg:block normal-case text-xl">
                 <img
                   src="http://www.pixel-industry.com/html/royal-plate/img/logo.png"
                   alt=""

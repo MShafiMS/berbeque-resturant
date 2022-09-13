@@ -1,7 +1,10 @@
 import React from "react";
 import { GoPrimitiveDot } from "react-icons/go";
+
+import SwiperCore, { Autoplay } from "swiper";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+
 
 // Import Swiper styles
 import "swiper/css";
@@ -19,6 +22,11 @@ const Slider = () => {
           el: ".my-custom-pagination-div",
           clickable: true,
         }}
+        loop={true}
+        autoplay={{
+          delay: 1500,
+          disableOnInteraction: false,
+        }}
         modules={[Pagination]}
         className="mySwiper"
       >
@@ -28,7 +36,7 @@ const Slider = () => {
               <div className="hidden lg:block w-full">
                 <img
                   src="http://www.pixel-industry.com/html/royal-plate/img/pics/img-01.jpg"
-                  className="w-full rounded-lg shadow-2xl"
+                  className="w-full shadow-2xl"
                 />
               </div>
               <div className="w-full">
@@ -82,7 +90,7 @@ const Slider = () => {
               <div className="hidden lg:block w-full">
                 <img
                   src="http://www.pixel-industry.com/html/royal-plate/img/pics/img-09.jpg"
-                  className="w-full rounded-lg shadow-2xl"
+                  className="w-full shadow-2xl"
                 />
               </div>
               <div className="w-full">
@@ -138,7 +146,7 @@ const Slider = () => {
               <div className="hidden lg:block w-full">
                 <img
                   src="http://www.pixel-industry.com/html/royal-plate/img/pics/img-10.jpg"
-                  className="w-full rounded-lg shadow-2xl"
+                  className="w-full shadow-2xl"
                 />
               </div>
               <div className="w-full">
@@ -189,6 +197,6 @@ const Slider = () => {
       </Swiper>
     </div>
   );
-};
+};SwiperCore.use([Autoplay]);
 
 export default Slider;
