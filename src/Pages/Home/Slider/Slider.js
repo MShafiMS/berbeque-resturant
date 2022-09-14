@@ -33,10 +33,10 @@ const Slider = () => {
         <SwiperSlide>
           <div className="hero mx-8 min-h-screen bg-base-100">
             <div className="hero-content flex-col lg:flex-row">
-              <div className="hidden lg:block w-full">
+              <div className="hidden md:block lg:block w-full">
                 <img
                   src="https://images.unsplash.com/photo-1556713304-7a0dfeadff38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                  className="w-full shadow-2xl"
+                  className="w-full lg:shadow-2xl"
                 />
               </div>
               <div className="w-full">
@@ -87,10 +87,10 @@ const Slider = () => {
         <SwiperSlide>
           <div className="hero mx-8 min-h-screen bg-base-100">
             <div className="hero-content flex-col lg:flex-row">
-              <div className="hidden lg:block w-full">
+              <div className="hidden md:block lg:block w-full">
                 <img
                   src="https://images.unsplash.com/photo-1563019880-9b2ea5d89a12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                  className="w-full shadow-2xl"
+                  className="w-full lg:shadow-2xl"
                 />
               </div>
               <div className="w-full">
@@ -143,10 +143,10 @@ const Slider = () => {
         <SwiperSlide>
           <div className="hero mx-8 min-h-screen bg-base-100">
             <div className="hero-content flex-col lg:flex-row">
-              <div className="hidden lg:block w-full">
+              <div className="hidden md:block lg:block w-full">
                 <img
                   src="https://images.unsplash.com/photo-1573566779774-d4c597df19b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                  className="w-full shadow-2xl"
+                  className="w-full lg:shadow-2xl"
                 />
               </div>
               <div className="w-full">

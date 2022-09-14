@@ -28,55 +28,61 @@ const LunchDinner = () => {
               </div>
             </div>
             <div className="flex flex-col gap-6 mt-8">
-              <div className="flex gap-6 items-center">
+              <div className="lg:flex md:flex gap-4 items-center justify-between">
                 <img
-                  className="hidden lg:block"
+                  className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
                   src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-04.png"
                   alt=""
                 />
-                <div>
-                  <h1 className="text-lg">SPINACH SOUP</h1>
-                  <p className="text-sm">
-                    Milk, eggs, spinach, garlic, onion, potato, chicken stock,
-                    lemon
-                  </p>
-                </div>
-                <div className="border-t border-b py-6">
-                  <h1 className="text-5xl font-head text-secondary">$15</h1>
+                <div className="flex items-center justify-between w-full">
+                  <div>
+                    <h1 className="text-lg">SPINACH SOUP</h1>
+                    <p className="text-sm">
+                      Milk, eggs, spinach, garlic, onion, potato, chicken stock,
+                      lemon
+                    </p>
+                  </div>
+                  <div className="border-t border-b py-6">
+                    <h1 className="text-5xl font-head text-secondary">$15</h1>
+                  </div>
                 </div>
               </div>
-              <div className="flex gap-6 items-center">
+              <div className="lg:flex md:flex gap-4 items-center justify-between">
                 <img
-                  className="hidden lg:block"
+                  className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
                   src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-05.png"
                   alt=""
                 />
-                <div>
-                  <h1 className="text-lg">TOMATO SOUP</h1>
-                  <p className="text-sm">
-                    Tomatos, onion, carrot, celery, olive oil, tomato puree,
-                    sugar, vegetable soup
-                  </p>
-                </div>
-                <div className="border-t border-b py-6">
-                  <h1 className="text-5xl font-head text-secondary">$12</h1>
+                <div className="flex items-center justify-between w-full">
+                  <div>
+                    <h1 className="text-lg">TOMATO SOUP</h1>
+                    <p className="text-sm">
+                      Tomatos, onion, carrot, celery, olive oil, tomato puree,
+                      sugar, vegetable soup
+                    </p>
+                  </div>
+                  <div className="border-t border-b py-6">
+                    <h1 className="text-5xl font-head text-secondary">$12</h1>
+                  </div>
                 </div>
               </div>
-              <div className="flex gap-6 items-center">
+              <div className="lg:flex md:flex gap-4 items-center justify-between">
                 <img
-                  className="hidden lg:block"
+                  className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
                   src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-06.png"
                   alt=""
                 />
-                <div>
-                  <h1 className="text-lg">MUSHROOM SOUP</h1>
-                  <p className="text-sm">
-                    Mushrooms, olive oil, garlic, onion, sea salt, black pepper,
-                    persley, cheese
-                  </p>
-                </div>
-                <div className="border-t border-b py-6">
-                  <h1 className="text-5xl font-head text-secondary">$17</h1>
+                <div className="flex items-center justify-between w-full">
+                  <div>
+                    <h1 className="text-lg">MUSHROOM SOUP</h1>
+                    <p className="text-sm">
+                      Mushrooms, olive oil, garlic, onion, sea salt, black
+                      pepper, persley, cheese
+                    </p>
+                  </div>
+                  <div className="border-t border-b py-6">
+                    <h1 className="text-5xl font-head text-secondary">$17</h1>
+                  </div>
                 </div>
               </div>
             </div>
@@ -102,54 +108,60 @@ const LunchDinner = () => {
               </div>
             </div>
             <div className="flex flex-col gap-6 mt-8">
-              <div className="flex gap-6 items-center">
+              <div className="lg:flex md:flex gap-4 items-center justify-between">
                 <img
-                  className="hidden lg:block"
+                  className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
                   src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-07.png"
                   alt=""
                 />
-                <div>
-                  <h1 className="text-lg">CRACKING COBB SALAD</h1>
-                  <p className="text-sm">
-                    Chicken thighs, pepper, olive oil, salt, pancetta, avocado,
-                    tomato, cheese, buttermilk
-                  </p>
-                </div>
-                <div className="border-t border-b py-6">
-                  <h1 className="text-5xl font-head text-secondary">$15</h1>
+                <div className="flex items-center justify-between w-full">
+                  <div>
+                    <h1 className="text-lg">CRACKING COBB SALAD</h1>
+                    <p className="text-sm">
+                      Chicken thighs, pepper, olive oil, salt, pancetta,
+                      avocado, tomato, cheese, buttermilk
+                    </p>
+                  </div>
+                  <div className="border-t border-b py-6">
+                    <h1 className="text-5xl font-head text-secondary">$15</h1>
+                  </div>
                 </div>
               </div>
-              <div className="flex gap-6 items-center">
+              <div className="lg:flex md:flex gap-4 items-center justify-between">
                 <img
-                  className="hidden lg:block"
+                  className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
                   src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-08.png"
                   alt=""
                 />
-                <div>
-                  <h1 className="text-lg">WALDORF SALAD</h1>
-                  <p className="text-sm">
-                    Grapes, lemon, olive oil, sea salt, black pepper, walnuts,
-                    yoghurt, celery
-                  </p>
-                </div>
-                <div className="border-t border-b py-6">
-                  <h1 className="text-5xl font-head text-secondary">$12</h1>
+                <div className="flex items-center justify-between w-full">
+                  <div>
+                    <h1 className="text-lg">WALDORF SALAD</h1>
+                    <p className="text-sm">
+                      Grapes, lemon, olive oil, sea salt, black pepper, walnuts,
+                      yoghurt, celery
+                    </p>
+                  </div>
+                  <div className="border-t border-b py-6">
+                    <h1 className="text-5xl font-head text-secondary">$12</h1>
+                  </div>
                 </div>
               </div>
-              <div className="flex gap-6 items-center">
+              <div className="lg:flex md:flex gap-4 items-center justify-between">
                 <img
-                  className="hidden lg:block"
+                  className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
                   src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-09.png"
                   alt=""
                 />
-                <div>
-                  <h1 className="text-lg">SPRING QUICHE</h1>
-                  <p className="text-sm">
-                    Asparagus, spinach, onion, milk, cheese, black pepper
-                  </p>
-                </div>
-                <div className="border-t border-b py-6">
-                  <h1 className="text-5xl font-head text-secondary">$17</h1>
+                <div className="flex items-center justify-between w-full">
+                  <div>
+                    <h1 className="text-lg">SPRING QUICHE</h1>
+                    <p className="text-sm">
+                      Asparagus, spinach, onion, milk, cheese, black pepper
+                    </p>
+                  </div>
+                  <div className="border-t border-b py-6">
+                    <h1 className="text-5xl font-head text-secondary">$17</h1>
+                  </div>
                 </div>
               </div>
             </div>

@@ -7,7 +7,7 @@ import Menu from './Pages/Menu/Menu';
 
 function App() {
   return (
-    <div>
+    <div className='font-main'>
       <Navbar></Navbar>
      <Routes>
       <Route path='/' element={<Home></Home>}></Route>

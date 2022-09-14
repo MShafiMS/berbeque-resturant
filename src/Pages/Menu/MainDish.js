@@ -34,54 +34,61 @@ const MainDish = () => {
             viewport={{ once: true }}
           >
             <div className="flex flex-col gap-6 mt-8">
-              <div className="flex gap-6 items-center">
+              <div className="lg:flex md:flex gap-4 items-center justify-between">
                 <img
-                  className="hidden lg:block"
+                  className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
                   src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-10.png"
                   alt=""
                 />
-                <div>
-                  <h1 className="text-lg">GRILLED CHICKEN KEBABS</h1>
-                  <p className="text-sm">
-                    Skinless chicken breast, black pepper, red pepper, passata,
-                    ginger, garlic
-                  </p>
-                </div>
-                <div className="border-t border-b py-6">
-                  <h1 className="text-5xl font-head text-secondary">$25</h1>
+                <div className="flex items-center justify-between w-full">
+                  <div>
+                    <h1 className="text-lg">GRILLED CHICKEN KEBABS</h1>
+                    <p className="text-sm">
+                      Skinless chicken breast, black pepper, red pepper,
+                      passata, ginger, garlic
+                    </p>
+                  </div>
+                  <div className="border-t border-b py-6">
+                    <h1 className="text-5xl font-head text-secondary">$25</h1>
+                  </div>
                 </div>
               </div>
-              <div className="flex gap-6 items-center">
+              <div className="lg:flex md:flex gap-4 items-center justify-between">
                 <img
-                  className="hidden lg:block"
+                  className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
                   src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-11.png"
                   alt=""
                 />
-                <div>
-                  <h1 className="text-lg">BBQ BEEF SHORT RIBS</h1>
-                  <p className="text-sm">
-                    Short ribs, olive oil, caraway seeds, yoghurt, carrots,
-                    onions, white cabbage
-                  </p>
-                </div>
-                <div className="border-t border-b py-6">
-                  <h1 className="text-5xl font-head text-secondary">$27</h1>
+                <div className="flex items-center justify-between w-full">
+                  <div>
+                    <h1 className="text-lg">BBQ BEEF SHORT RIBS</h1>
+                    <p className="text-sm">
+                      Short ribs, olive oil, caraway seeds, yoghurt, carrots,
+                      onions, white cabbage
+                    </p>
+                  </div>
+                  <div className="border-t border-b py-6">
+                    <h1 className="text-5xl font-head text-secondary">$27</h1>
+                  </div>
                 </div>
               </div>
-              <div className="flex gap-6 items-center">
+              <div className="lg:flex md:flex gap-4 items-center justify-between">
                 <img
-                  className="hidden lg:block"
+                  className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
                   src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-12.png"
                   alt=""
                 />
-                <div>
-                  <h1 className="text-lg">SOUTHERN FIRED CHICKEN</h1>
-                  <p className="text-sm">
-                    Chicken thighs, chicken drumsticks, potatoes, ayenne pepper
-                  </p>
-                </div>
-                <div className="border-t border-b py-6">
-                  <h1 className="text-5xl font-head text-secondary">$21</h1>
+                <div className="flex items-center justify-between w-full">
+                  <div>
+                    <h1 className="text-lg">SOUTHERN FIRED CHICKEN</h1>
+                    <p className="text-sm">
+                      Chicken thighs, chicken drumsticks, potatoes, ayenne
+                      pepper
+                    </p>
+                  </div>
+                  <div className="border-t border-b py-6">
+                    <h1 className="text-5xl font-head text-secondary">$21</h1>
+                  </div>
                 </div>
               </div>
             </div>
@@ -98,55 +105,61 @@ const MainDish = () => {
             viewport={{ once: true }}
           >
             <div className="flex flex-col gap-6 mt-8">
-              <div className="flex gap-6 items-center">
+              <div className="lg:flex md:flex gap-4 items-center justify-between">
                 <img
-                  className="hidden lg:block"
+                  className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
                   src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-13.png"
                   alt=""
                 />
-                <div>
-                  <h1 className="text-lg">SICILIAN-STYLE TUNA CARPACCIO</h1>
-                  <p className="text-sm">
-                    Tuna steak, rose vine, red chilli, lemon, fresh basil, fresh
-                    dill, garlic, olive oil
-                  </p>
-                </div>
-                <div className="border-t border-b py-6">
-                  <h1 className="text-5xl font-head text-secondary">$24</h1>
+                <div className="flex items-center justify-between w-full">
+                  <div>
+                    <h1 className="text-lg">SICILIAN-STYLE TUNA CARPACCIO</h1>
+                    <p className="text-sm">
+                      Tuna steak, rose vine, red chilli, lemon, fresh basil,
+                      fresh dill, garlic, olive oil
+                    </p>
+                  </div>
+                  <div className="border-t border-b py-6">
+                    <h1 className="text-5xl font-head text-secondary">$24</h1>
+                  </div>
                 </div>
               </div>
-              <div className="flex gap-6 items-center">
+              <div className="lg:flex md:flex gap-4 items-center justify-between">
                 <img
-                  className="hidden lg:block"
+                  className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
                   src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-14.png"
                   alt=""
                 />
-                <div>
-                  <h1 className="text-lg">TURKEY TONNATO</h1>
-                  <p className="text-sm">
-                    Turkey breast, red chilli, olive oil, tinned tuna, lemon,
-                    black pepper, red wine vinegar
-                  </p>
-                </div>
-                <div className="border-t border-b py-6">
-                  <h1 className="text-5xl font-head text-secondary">$22</h1>
+                <div className="flex items-center justify-between w-full">
+                  <div>
+                    <h1 className="text-lg">TURKEY TONNATO</h1>
+                    <p className="text-sm">
+                      Turkey breast, red chilli, olive oil, tinned tuna, lemon,
+                      black pepper, red wine vinegar
+                    </p>
+                  </div>
+                  <div className="border-t border-b py-6">
+                    <h1 className="text-5xl font-head text-secondary">$22</h1>
+                  </div>
                 </div>
               </div>
-              <div className="flex gap-6 items-center">
+              <div className="lg:flex md:flex gap-4 items-center justify-between">
                 <img
-                  className="hidden lg:block"
+                  className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
                   src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-15.png"
                   alt=""
                 />
-                <div>
-                  <h1 className="text-lg">NEXT LEVEL STEAK</h1>
-                  <p className="text-sm">
-                    Flank skirt steak, onion, butter, olive oil, red wine
-                    vinegar
-                  </p>
-                </div>
-                <div className="border-t border-b py-6">
-                  <h1 className="text-5xl font-head text-secondary">$32</h1>
+                <div className="flex items-center justify-between w-full">
+                  <div>
+                    <h1 className="text-lg">NEXT LEVEL STEAK</h1>
+                    <p className="text-sm">
+                      Flank skirt steak, onion, butter, olive oil, red wine
+                      vinegar
+                    </p>
+                  </div>
+                  <div className="border-t border-b py-6">
+                    <h1 className="text-5xl font-head text-secondary">$32</h1>
+                  </div>
                 </div>
               </div>
             </div>

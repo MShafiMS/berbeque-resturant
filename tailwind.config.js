@@ -3,9 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      head: ["Montez"],
-      main: ["Montserrat"],
-      sub: ["Suranna"],
+      head: ["Arizonia"],
+      main: ["IBM Plex Sans"],
+      sub: ["PT Serif Caption"],
     },
     extend: {},
   },

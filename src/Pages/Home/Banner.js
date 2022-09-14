@@ -11,7 +11,7 @@ const Banner = () => {
       >
         
         <div className="banner-content h-[90vh] flex flex-row items-center gap-10 py-24 justify-between text-center text-neutral-content">
-          <div className="w-7/12 self-start hidden lg:block">
+          <div className="w-7/12 mt-4 self-start hidden lg:block">
             <img src={slide1} className='w-96' alt="" />
           </div>
           <div className="w-full">
@@ -19,7 +19,7 @@ const Banner = () => {
             <h1 className="mb-5 text-5xl font-sub uppercase text-white">
               Berbeque
             </h1>
-            <div className="text-primary flex items-center">
+            <div className="text-primary w-8/12 mx-auto flex items-center">
               <div className="w-full">
                 <div className="ml-7 bg-primary h-[1px] mb-1"></div>
                 <div className="bg-primary h-[1px]"></div>
@@ -46,7 +46,7 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="w-7/12 self-start hidden lg:block">
+          <div className="w-7/12 mt-4 self-start hidden lg:block">
             <img src={slide2} className='w-96' alt="" />
           </div>
         </div>

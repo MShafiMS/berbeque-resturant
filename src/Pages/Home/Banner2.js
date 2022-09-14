@@ -10,14 +10,14 @@ const Banner2 = () => {
       }}
     >
       <div className="flex flex-row gap-6 w-full">
-        <div>
+        <div className="w-8/12 hidden lg:block">
           <img
-            className="my-12 w-[550px] hidden lg:block"
+            className="my-12 w-full hidden lg:block"
             src="https://www.freepnglogos.com/uploads/food-png/food-plate-png-transparent-image-pngpix-14.png"
             alt=""
           />
           <img
-            className="my-12 w-[550px] hidden lg:block"
+            className="my-12 w-full hidden lg:block"
             src="https://www.freepnglogos.com/uploads/food-png/food-sutherland-foodservice-12.png"
             alt=""
           />
@@ -53,14 +53,14 @@ const Banner2 = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div className="w-8/12 hidden lg:block">
           <img
-            className="my-12 w-[550px] hidden lg:block"
+            className="my-12 w-full hidden lg:block"
             src="https://www.freepnglogos.com/uploads/food-png/food-home-nanoosh-20.png"
             alt=""
           />
           <img
-            className="my-12 w-[550px] hidden lg:block"
+            className="my-12 w-full hidden lg:block"
             src="https://www.freepnglogos.com/uploads/food-png/food-plate-png-transparent-image-pngpix-2.png"
             alt=""
           />

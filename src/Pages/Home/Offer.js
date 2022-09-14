@@ -8,13 +8,13 @@ const Offer = () => {
     <div className="hero min-h-screen bg-base-100">
       <div className="hero-content w-11/12 flex-col lg:flex-row">
         <div className="w-full">
-          <div className="grid grid-cols-2 w-full">
+          <div className="grid lg:grid-cols-2 gap-0 md:grid-cols-2 w-full">
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ type: "spring", stiffness: 100, delay: 0.1 }}
               viewport={{ once: true }}
-              className="hero h-[250px]"
+              className="hero md:w-[360px] md:h-[360px] h-72 lg:h-[270px] lg:w-[270px] mx-auto"
               style={{
                 backgroundImage: `url("https://images.unsplash.com/photo-1604909052868-dd2ef1e53daa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80")`,
               }}
@@ -38,7 +38,7 @@ const Offer = () => {
               whileInView={{ opacity: 1 }}
               transition={{ type: "spring", stiffness: 100, delay: 0.2 }}
               viewport={{ once: true }}
-              className="hero h-[250px]"
+              className="hero md:w-[360px] md:h-[360px] h-72 lg:h-[270px] lg:w-[270px] mx-auto"
               style={{
                 backgroundImage: `url("https://images.unsplash.com/photo-1625943912749-7f75dc0d7a01?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80")`,
               }}
@@ -62,7 +62,7 @@ const Offer = () => {
               whileInView={{ opacity: 1 }}
               transition={{ type: "spring", stiffness: 100, delay: 0.3 }}
               viewport={{ once: true }}
-              className="hero h-[250px]"
+              className="hero md:w-[360px] md:h-[360px] h-72 lg:h-[270px] lg:w-[270px] mx-auto"
               style={{
                 backgroundImage: `url("https://images.unsplash.com/photo-1604296703995-97dc3ded7f9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=935&q=80")`,
               }}
@@ -86,7 +86,7 @@ const Offer = () => {
               whileInView={{ opacity: 1 }}
               transition={{ type: "spring", stiffness: 100, delay: 0.4 }}
               viewport={{ once: true }}
-              className="hero h-[250px]"
+              className="hero md:w-[360px] md:h-[360px] h-72 lg:h-[270px] lg:w-[270px] mx-auto"
               style={{
                 backgroundImage: `url("https://images.unsplash.com/photo-1596097650412-42feabbcff42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80")`,
               }}
@@ -130,7 +130,7 @@ const Offer = () => {
         >
           <h1 className="text-5xl font-head text-secondary">From the menu</h1>
           <h1 className="text-4xl font-sub">SPECIAL OFFERS</h1>
-          <div className="text-secondary my-2 w-16 flex items-center">
+          <div className="text-secondary my-2 w-16 flex items-center justify-between w-full">
             <span className="mr-2">
               <GoPrimitiveDot></GoPrimitiveDot>
             </span>
@@ -139,52 +139,61 @@ const Offer = () => {
             </div>
           </div>
           <div className="flex flex-col gap-6 mt-8">
-            <div className="flex gap-6 items-center">
+            <div className="lg:flex md:flex gap-4 items-center justify-between">
               <img
                 src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-01.png"
                 alt=""
+                className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
               />
-              <div>
-                <h1 className="text-lg">ROYAL BREAKFAST</h1>
-                <p className="text-sm">
-                  Fried eggs, fried bacon, toast, fresh tomato salad, cup of
-                  coffee or tea
-                </p>
-              </div>
-              <div className="border-t border-b py-6">
-                <h1 className="text-5xl font-head text-secondary">$15</h1>
+              <div className="flex items-center justify-between w-full">
+                <div className="w-full">
+                  <h1 className="text-lg">ROYAL BREAKFAST</h1>
+                  <p className="text-sm">
+                    Fried eggs, fried bacon, toast, fresh tomato salad, cup of
+                    coffee or tea
+                  </p>
+                </div>
+                <div className="border-t border-b py-6">
+                  <h1 className="text-5xl font-head text-secondary">$15</h1>
+                </div>
               </div>
             </div>
-            <div className="flex gap-6 items-center">
+            <div className="lg:flex md:flex gap-4 items-center justify-between">
               <img
                 src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-02.png"
                 alt=""
+                className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
               />
-              <div>
-                <h1 className="text-lg">ROYAL BRUNCH</h1>
-                <p className="text-sm">
-                  Warm chicken wings, portobello mushrooms, fresh mozzarella,
-                  coffe or tea
-                </p>
-              </div>
-              <div className="border-t border-b py-6">
-                <h1 className="text-5xl font-head text-secondary">$22</h1>
+              <div className="flex items-center justify-between w-full">
+                <div className="w-full">
+                  <h1 className="text-lg">ROYAL BRUNCH</h1>
+                  <p className="text-sm">
+                    Warm chicken wings, portobello mushrooms, fresh mozzarella,
+                    coffe or tea
+                  </p>
+                </div>
+                <div className="border-t border-b py-6">
+                  <h1 className="text-5xl font-head text-secondary">$22</h1>
+                </div>
               </div>
             </div>
-            <div className="flex gap-6 items-center">
+            <div className="lg:flex md:flex gap-4 items-center justify-between">
               <img
                 src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-03.png"
                 alt=""
+                className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
               />
-              <div>
-                <h1 className="text-lg">ROYAL DINNER</h1>
-                <p className="text-sm">
-                  Grilled Beaf steak, roasted red potatos with rosemary,
-                  mashrooms sause, vine
-                </p>
-              </div>
-              <div className="border-t border-b py-6">
-                <h1 className="text-5xl font-head text-secondary">$28</h1>
+              <div className="flex items-center justify-between w-full">
+                <div className="w-full">
+                  <h1 className="text-lg">ROYAL DINNER</h1>
+                  <p className="text-sm">
+                    Grilled Beaf steak, roasted red potatos with rosemary,
+                    mashrooms sause, vine
+                  </p>
+                </div>
+                <div className="border-t border-b py-6">
+                  <h1 className="text-5xl font-head text-secondary">$28</h1>
+                </div>
               </div>
             </div>
           </div>

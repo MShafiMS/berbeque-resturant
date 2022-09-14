@@ -38,78 +38,80 @@ const Contact = () => {
               transition={{ type: "spring", stiffness: 100, duration: 300 }}
               viewport={{ once: true }}
             >
-              <div class="relative mb-2">
-                <div class="flex absolute inset-y-0 left-0 items-center pl-12 pointer-events-none">
-                  <span className="text-secondary">
-                    <FaUserAlt />
-                  </span>
+              <div className="grid lg:grid-cols-1 md:grid-cols-2">
+                <div class="relative mb-2">
+                  <div class="flex absolute inset-y-0 left-0 items-center pl-8 md:pl-8 lg:pl-12 pointer-events-none">
+                    <span className="text-secondary">
+                      <FaUserAlt />
+                    </span>
+                  </div>
+                  <input
+                    type="text"
+                    placeholder="Your name"
+                    className="input block mx-auto pl-10 p-2.5 input-bordered lg:w-10/12 w-11/12 rounded-none"
+                  />
                 </div>
-                <input
-                  type="text"
-                  placeholder="Your name"
-                  className="input block mx-auto pl-10 p-2.5 input-bordered w-10/12 rounded-none"
-                />
-              </div>
-              <div class="relative mb-2">
-                <div class="flex absolute inset-y-0 left-0 items-center pl-12 pointer-events-none">
-                  <span className="text-secondary">
-                    <HiOutlineMail />
-                  </span>
+                <div class="relative mb-2">
+                  <div class="flex absolute inset-y-0 left-0 items-center pl-8 md:pl-8 lg:pl-12 pointer-events-none">
+                    <span className="text-secondary">
+                      <HiOutlineMail />
+                    </span>
+                  </div>
+                  <input
+                    type="email"
+                    placeholder="Your email"
+                    className="input block mx-auto pl-10 p-2.5 input-bordered lg:w-10/12 w-11/12 rounded-none"
+                  />
                 </div>
-                <input
-                  type="email"
-                  placeholder="Your email"
-                  className="input block mx-auto pl-10 p-2.5 input-bordered w-10/12 rounded-none"
-                />
-              </div>
-              <div class="relative mb-2">
-                <div class="flex absolute inset-y-0 left-0 items-center pl-12 pointer-events-none">
-                  <span className="text-secondary">
-                    <FaRegCalendarAlt />
-                  </span>
+                <div class="relative mb-2">
+                  <div class="flex absolute inset-y-0 left-0 items-center pl-8 md:pl-8 lg:pl-12 pointer-events-none">
+                    <span className="text-secondary">
+                      <FaRegCalendarAlt />
+                    </span>
+                  </div>
+                  <input
+                    type="date"
+                    placeholder="Type here"
+                    className="input block mx-auto pl-10 p-2.5 input-bordered lg:w-10/12 w-11/12 rounded-none"
+                  />
                 </div>
-                <input
-                  type="date"
-                  placeholder="Type here"
-                  className="input block mx-auto pl-10 p-2.5 input-bordered w-10/12 rounded-none"
-                />
-              </div>
-              <div class="relative mb-2">
-                <div class="flex absolute inset-y-0 left-0 items-center pl-12 pointer-events-none">
-                  <span className="text-secondary">
-                    <BiTime />
-                  </span>
+                <div class="relative mb-2">
+                  <div class="flex absolute inset-y-0 left-0 items-center pl-8 md:pl-8 lg:pl-12 pointer-events-none">
+                    <span className="text-secondary">
+                      <BiTime />
+                    </span>
+                  </div>
+                  <input
+                    type="time"
+                    placeholder="Type here"
+                    className="input block mx-auto pl-10 p-2.5 input-bordered lg:w-10/12 w-11/12 rounded-none"
+                  />
                 </div>
-                <input
-                  type="time"
-                  placeholder="Type here"
-                  className="input block mx-auto pl-10 p-2.5 input-bordered w-10/12 rounded-none"
-                />
-              </div>
-              <div class="relative mb-2">
-                <div class="flex absolute inset-y-0 left-0 items-center pl-12 pointer-events-none">
-                  <span className="text-secondary">
-                    <BsPeopleFill />
-                  </span>
+                <div class="relative mb-2">
+                  <div class="flex absolute inset-y-0 left-0 items-center pl-8 md:pl-8 lg:pl-12 pointer-events-none">
+                    <span className="text-secondary">
+                      <BsPeopleFill />
+                    </span>
+                  </div>
+                  <select
+                    type="text"
+                    placeholder="Type here"
+                    className="select block mx-auto pl-10 p-2.5 select-bordered lg:w-10/12 w-11/12 rounded-none"
+                  >
+                    <option disabled selected>
+                      0 People
+                    </option>
+                    <option>1 People</option>
+                    <option>2 People</option>
+                    <option>3 People</option>
+                    <option>4 People</option>
+                    <option>5 People</option>
+                  </select>
                 </div>
-                <select
-                  type="text"
-                  placeholder="Type here"
-                  className="select block mx-auto pl-10 p-2.5 select-bordered w-10/12 rounded-none"
-                >
-                  <option disabled selected>
-                    0 People
-                  </option>
-                  <option>1 People</option>
-                  <option>2 People</option>
-                  <option>3 People</option>
-                  <option>4 People</option>
-                  <option>5 People</option>
-                </select>
+                <button className="btn mx-auto rounded-none bg-[#161D27] hover:bg-secondary hover:border-secondary font-thin text-white lg:w-10/12 w-11/12">
+                  Find A Table
+                </button>
               </div>
-              <button className="btn rounded-none bg-[#161D27] hover:bg-secondary hover:border-secondary font-thin text-white w-10/12">
-                Find A Table
-              </button>
             </motion.div>
           </div>
         </div>
