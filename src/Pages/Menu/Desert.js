@@ -7,7 +7,7 @@ const Desert = () => {
     <div>
       <div className="hero">
         <div className="hero-content flex flex-col lg:mb-16">
-          <motion.img
+          {/* <motion.img
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{
@@ -20,7 +20,7 @@ const Desert = () => {
             src="https://i.ibb.co/2KNHgqc/4e4306fnutellalasgana-min-1.png"
             className="mx-auto "
             alt=""
-          />
+          /> */}
           <div className="text-center">
             <p className="text-4xl font-head text-secondary">Tasty</p>
             <p className="text-4xl font-sub">DESERTS</p>
@@ -51,58 +51,55 @@ const Desert = () => {
               <div className="flex flex-col gap-6 mt-8">
                 <div className="lg:flex md:flex gap-4 items-center justify-between">
                   <img
-                    className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
-                    src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-16.png"
+                    className="w-24 rounded-full mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
+                    src="https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                     alt=""
                   />
                   <div className="flex items-center justify-between w-full">
                     <div>
-                      <h1 className="text-lg">CHOCOLATE & ORANGE PLATE</h1>
+                      <h1 className="text-lg uppercase">Food menu name</h1>
                       <p className="text-sm">
-                        Dark melted chocolate, juicy orange, sugar, lemon juice,
-                        vanilla sticks
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita minus enim a?
                       </p>
                     </div>
                     <div className="border-t border-b py-6">
-                      <h1 className="text-5xl font-head text-secondary">$10</h1>
+                      <h1 className="text-4xl font-sub text-secondary">$10</h1>
                     </div>
                   </div>
                 </div>
                 <div className="lg:flex md:flex gap-4 items-center justify-between">
                   <img
-                    className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
-                    src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-17.png"
+                    className="w-24 rounded-full mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
+                    src="https://images.unsplash.com/photo-1628838617281-065549dd37fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                     alt=""
                   />
                   <div className="flex items-center justify-between w-full">
                     <div>
-                      <h1 className="text-lg">JAMAICAN STRAWBERRY CAKE</h1>
+                      <h1 className="text-lg uppercase">Food menu name</h1>
                       <p className="text-sm">
-                        Strawberry, golden syrup, brown sugar, cream cheese,
-                        cinnamon
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita minus enim a?
                       </p>
                     </div>
                     <div className="border-t border-b py-6">
-                      <h1 className="text-5xl font-head text-secondary">$11</h1>
+                      <h1 className="text-4xl font-sub text-secondary">$11</h1>
                     </div>
                   </div>
                 </div>
                 <div className="lg:flex md:flex gap-4 items-center justify-between">
                   <img
-                    className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
-                    src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-18.png"
+                    className="w-24 rounded-full mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
+                    src="https://images.unsplash.com/photo-1472555950005-7fa40ece7f6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=937&q=80"
                     alt=""
                   />
                   <div className="flex items-center justify-between w-full">
                     <div>
-                      <h1 className="text-lg">ILE FLOTTANTE</h1>
+                      <h1 className="text-lg uppercase">Food menu name</h1>
                       <p className="text-sm">
-                        Vanilla pod, rhubard, golden caster sugar, orange, milk,
-                        double cream
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita minus enim a?
                       </p>
                     </div>
                     <div className="border-t border-b py-6">
-                      <h1 className="text-5xl font-head text-secondary">$12</h1>
+                      <h1 className="text-4xl font-sub text-secondary">$12</h1>
                     </div>
                   </div>
                 </div>
@@ -122,58 +119,55 @@ const Desert = () => {
               <div className="flex flex-col gap-6 mt-8">
                 <div className="lg:flex md:flex gap-4 items-center justify-between">
                   <img
-                    className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
-                    src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-19.png"
+                    className="w-24 rounded-full mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
+                    src="https://images.unsplash.com/photo-1609271873730-ed73bb15b9a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                     alt=""
                   />
                   <div className="flex items-center justify-between w-full">
                     <div>
-                      <h1 className="text-lg">PANNA COTTA</h1>
+                      <h1 className="text-lg uppercase">Food menu name</h1>
                       <p className="text-sm">
-                        Milk, powdered gelatin, whipping cream, honey, sugar,
-                        salt, fresh berries
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita minus enim a?
                       </p>
                     </div>
                     <div className="border-t border-b py-6">
-                      <h1 className="text-5xl font-head text-secondary">$12</h1>
+                      <h1 className="text-4xl font-sub text-secondary">$12</h1>
                     </div>
                   </div>
                 </div>
                 <div className="lg:flex md:flex gap-4 items-center justify-between">
                   <img
-                    className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
-                    src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-20.png"
+                    className="w-24 rounded-full mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
+                    src="https://images.unsplash.com/photo-1570781148825-b9c37b9531e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                     alt=""
                   />
                   <div className="flex items-center justify-between w-full">
                     <div>
-                      <h1 className="text-lg">TASTY TIRAMISU CAKE</h1>
+                      <h1 className="text-lg uppercase">Food menu name</h1>
                       <p className="text-sm">
-                        Egg yolks, sugar, milk, mascarpone cheese, coffee,
-                        brandy, cocoa powder, chocolate
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita minus enim a?
                       </p>
                     </div>
                     <div className="border-t border-b py-6">
-                      <h1 className="text-5xl font-head text-secondary">$10</h1>
+                      <h1 className="text-4xl font-sub text-secondary">$10</h1>
                     </div>
                   </div>
                 </div>
                 <div className="lg:flex md:flex gap-4 items-center justify-between">
                   <img
-                    className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
-                    src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-21.png"
+                    className="w-24 rounded-full mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
+                    src="https://images.unsplash.com/photo-1517306085770-871ff74b2274?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=915&q=80"
                     alt=""
                   />
                   <div className="flex items-center justify-between w-full">
                     <div>
-                      <h1 className="text-lg">TANGERINE & VANILLA CUP</h1>
+                      <h1 className="text-lg uppercase">Food menu name</h1>
                       <p className="text-sm">
-                        Tangerine, vanilla sticks, milk, brown sugar, double
-                        cream
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita minus enim a?
                       </p>
                     </div>
                     <div className="border-t border-b py-6">
-                      <h1 className="text-5xl font-head text-secondary">$11</h1>
+                      <h1 className="text-4xl font-sub text-secondary">$11</h1>
                     </div>
                   </div>
                 </div>

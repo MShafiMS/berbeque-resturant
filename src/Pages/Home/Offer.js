@@ -129,8 +129,8 @@ const Offer = () => {
           className="w-full mx-4"
         >
           <h1 className="text-5xl font-head text-secondary">From the menu</h1>
-          <h1 className="text-4xl font-sub">SPECIAL OFFERS</h1>
-          <div className="text-secondary my-2 w-16 flex items-center justify-between w-full">
+          <h1 className="text-4xl font-noto">SPECIAL OFFERS</h1>
+          <div className="text-secondary my-2 w-16 flex items-center justify-between">
             <span className="mr-2">
               <GoPrimitiveDot></GoPrimitiveDot>
             </span>
@@ -141,58 +141,55 @@ const Offer = () => {
           <div className="flex flex-col gap-6 mt-8">
             <div className="lg:flex md:flex gap-4 items-center justify-between">
               <img
-                src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-01.png"
+                src="https://images.unsplash.com/photo-1607923722386-1c7b1d86f70a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=879&q=80"
                 alt=""
-                className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
+                className="w-24 rounded-full mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
               />
               <div className="flex items-center justify-between w-full">
                 <div className="w-full">
-                  <h1 className="text-lg">ROYAL BREAKFAST</h1>
+                  <h1 className="text-lg uppercase">Royal food menu</h1>
                   <p className="text-sm">
-                    Fried eggs, fried bacon, toast, fresh tomato salad, cup of
-                    coffee or tea
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat maxime vel quasi!
                   </p>
                 </div>
                 <div className="border-t border-b py-6">
-                  <h1 className="text-5xl font-head text-secondary">$15</h1>
+                  <h1 className="text-4xl font-sub text-secondary">$15</h1>
                 </div>
               </div>
             </div>
             <div className="lg:flex md:flex gap-4 items-center justify-between">
               <img
-                src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-02.png"
+                src="https://images.unsplash.com/photo-1614287681681-592fe09d78a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                 alt=""
-                className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
+                className="w-24 rounded-full mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
               />
               <div className="flex items-center justify-between w-full">
                 <div className="w-full">
-                  <h1 className="text-lg">ROYAL BRUNCH</h1>
+                  <h1 className="text-lg uppercase">Royal food menu</h1>
                   <p className="text-sm">
-                    Warm chicken wings, portobello mushrooms, fresh mozzarella,
-                    coffe or tea
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat maxime vel quasi!
                   </p>
                 </div>
                 <div className="border-t border-b py-6">
-                  <h1 className="text-5xl font-head text-secondary">$22</h1>
+                  <h1 className="text-4xl font-sub text-secondary">$22</h1>
                 </div>
               </div>
             </div>
             <div className="lg:flex md:flex gap-4 items-center justify-between">
               <img
-                src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-03.png"
+                src="https://images.unsplash.com/photo-1605926637512-c8b131444a4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                 alt=""
-                className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
+                className="w-24 rounded-full mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
               />
               <div className="flex items-center justify-between w-full">
                 <div className="w-full">
-                  <h1 className="text-lg">ROYAL DINNER</h1>
+                  <h1 className="text-lg uppercase">Royal food menu</h1>
                   <p className="text-sm">
-                    Grilled Beaf steak, roasted red potatos with rosemary,
-                    mashrooms sause, vine
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat maxime vel quasi!
                   </p>
                 </div>
                 <div className="border-t border-b py-6">
-                  <h1 className="text-5xl font-head text-secondary">$28</h1>
+                  <h1 className="text-4xl font-sub text-secondary">$28</h1>
                 </div>
               </div>
             </div>

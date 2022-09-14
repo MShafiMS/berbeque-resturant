@@ -36,58 +36,55 @@ const MainDish = () => {
             <div className="flex flex-col gap-6 mt-8">
               <div className="lg:flex md:flex gap-4 items-center justify-between">
                 <img
-                  className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
-                  src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-10.png"
+                  className="w-24 rounded-full mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
+                  src="https://images.unsplash.com/photo-1561651823-34feb02250e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=854&q=80"
                   alt=""
                 />
                 <div className="flex items-center justify-between w-full">
                   <div>
-                    <h1 className="text-lg">GRILLED CHICKEN KEBABS</h1>
+                    <h1 className="text-lg uppercase">Food menu name</h1>
                     <p className="text-sm">
-                      Skinless chicken breast, black pepper, red pepper,
-                      passata, ginger, garlic
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, fugit magnam!
                     </p>
                   </div>
                   <div className="border-t border-b py-6">
-                    <h1 className="text-5xl font-head text-secondary">$25</h1>
+                    <h1 className="text-4xl font-sub text-secondary">$25</h1>
                   </div>
                 </div>
               </div>
               <div className="lg:flex md:flex gap-4 items-center justify-between">
                 <img
-                  className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
-                  src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-11.png"
+                  className="w-24 rounded-full mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
+                  src="https://images.unsplash.com/photo-1585297099535-d5f84e833797?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   alt=""
                 />
                 <div className="flex items-center justify-between w-full">
                   <div>
-                    <h1 className="text-lg">BBQ BEEF SHORT RIBS</h1>
+                    <h1 className="text-lg uppercase">Food menu name</h1>
                     <p className="text-sm">
-                      Short ribs, olive oil, caraway seeds, yoghurt, carrots,
-                      onions, white cabbage
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, fugit magnam!
                     </p>
                   </div>
                   <div className="border-t border-b py-6">
-                    <h1 className="text-5xl font-head text-secondary">$27</h1>
+                    <h1 className="text-4xl font-sub text-secondary">$27</h1>
                   </div>
                 </div>
               </div>
               <div className="lg:flex md:flex gap-4 items-center justify-between">
                 <img
-                  className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
-                  src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-12.png"
+                  className="w-24 rounded-full mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
+                  src="https://images.unsplash.com/photo-1625943555030-fbf8c07f0817?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   alt=""
                 />
                 <div className="flex items-center justify-between w-full">
                   <div>
-                    <h1 className="text-lg">SOUTHERN FIRED CHICKEN</h1>
+                    <h1 className="text-lg uppercase">Food menu name</h1>
                     <p className="text-sm">
-                      Chicken thighs, chicken drumsticks, potatoes, ayenne
-                      pepper
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, fugit magnam!
                     </p>
                   </div>
                   <div className="border-t border-b py-6">
-                    <h1 className="text-5xl font-head text-secondary">$21</h1>
+                    <h1 className="text-4xl font-sub text-secondary">$21</h1>
                   </div>
                 </div>
               </div>
@@ -107,58 +104,55 @@ const MainDish = () => {
             <div className="flex flex-col gap-6 mt-8">
               <div className="lg:flex md:flex gap-4 items-center justify-between">
                 <img
-                  className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
-                  src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-13.png"
+                  className="w-24 rounded-full mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
+                  src="https://images.unsplash.com/photo-1595295333158-4742f28fbd85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   alt=""
                 />
                 <div className="flex items-center justify-between w-full">
                   <div>
-                    <h1 className="text-lg">SICILIAN-STYLE TUNA CARPACCIO</h1>
+                    <h1 className="text-lg uppercase">Food menu name</h1>
                     <p className="text-sm">
-                      Tuna steak, rose vine, red chilli, lemon, fresh basil,
-                      fresh dill, garlic, olive oil
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, fugit magnam!
                     </p>
                   </div>
                   <div className="border-t border-b py-6">
-                    <h1 className="text-5xl font-head text-secondary">$24</h1>
+                    <h1 className="text-4xl font-sub text-secondary">$24</h1>
                   </div>
                 </div>
               </div>
               <div className="lg:flex md:flex gap-4 items-center justify-between">
                 <img
-                  className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
-                  src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-14.png"
+                  className="w-24 rounded-full mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
+                  src="https://images.unsplash.com/photo-1546039907-7fa05f864c02?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   alt=""
                 />
                 <div className="flex items-center justify-between w-full">
                   <div>
-                    <h1 className="text-lg">TURKEY TONNATO</h1>
+                    <h1 className="text-lg uppercase">Food menu name</h1>
                     <p className="text-sm">
-                      Turkey breast, red chilli, olive oil, tinned tuna, lemon,
-                      black pepper, red wine vinegar
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, fugit magnam!
                     </p>
                   </div>
                   <div className="border-t border-b py-6">
-                    <h1 className="text-5xl font-head text-secondary">$22</h1>
+                    <h1 className="text-4xl font-sub text-secondary">$22</h1>
                   </div>
                 </div>
               </div>
               <div className="lg:flex md:flex gap-4 items-center justify-between">
                 <img
-                  className="w-24 mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
-                  src="http://www.pixel-industry.com/html/royal-plate/img/pics/menu-item-15.png"
+                  className="w-24 rounded-full mx-auto md:mx-0 lg:mb-0 md:mb-0 lg:mx-0 mb-4"
+                  src="https://images.unsplash.com/photo-1633237308525-cd587cf71926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   alt=""
                 />
                 <div className="flex items-center justify-between w-full">
                   <div>
-                    <h1 className="text-lg">NEXT LEVEL STEAK</h1>
+                    <h1 className="text-lg uppercase">Food menu name</h1>
                     <p className="text-sm">
-                      Flank skirt steak, onion, butter, olive oil, red wine
-                      vinegar
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, fugit magnam!
                     </p>
                   </div>
                   <div className="border-t border-b py-6">
-                    <h1 className="text-5xl font-head text-secondary">$32</h1>
+                    <h1 className="text-4xl font-sub text-secondary">$32</h1>
                   </div>
                 </div>
               </div>

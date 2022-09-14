@@ -20,8 +20,8 @@ const Home = () => {
       <Banner5></Banner5>
       <Contact></Contact>
       <div className="bg-[#161D27] text-white py-1 lg:px-8">
-        <p className="text-gray-300 text-sm text-center lg:text-start mb-3">Enjoyed your stay at Royal Plate? Share your moments with us. Follow us on Instagram and use</p>
-        <h1 className="font-sub text-3xl text-center lg:text-start lg:text-4xl">#ROYALPLATE_MOMENTS</h1>
+        <p className="text-gray-300 text-sm text-center lg:text-start mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum fugiat fuga esse sit asperiores?</p>
+        <h1 className="font-sub uppercase text-2xl text-center lg:text-start lg:text-4xl">#berbeque_MOMENTS</h1>
       </div>
     </>
   );

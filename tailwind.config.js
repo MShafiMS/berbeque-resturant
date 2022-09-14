@@ -6,6 +6,7 @@ module.exports = {
       head: ["Arizonia"],
       main: ["IBM Plex Sans"],
       sub: ["PT Serif Caption"],
+      noto: ["Noto Serif"],
     },
     extend: {},
   },

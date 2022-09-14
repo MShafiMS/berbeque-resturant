@@ -43,13 +43,7 @@ const Banner2 = () => {
               </div>
             </div>
             <p className="mt-6">
-              Welcome. This is Royal plate. Elegant & sophisticated restaurant
-              template. Royal plate offers different home page layouts with
-              smart and unique design, showcasing beautifully designed elements
-              every restaurant website should have. Smooth animations, fast
-              loading and engaging user experience are just some of the features
-              this template offers. So, give it a try and dive into a world of
-              royal restaurant websites.
+              Lx minus fuga earum aut animi enim delectus provident reiciendis in, totam, voluptatum doloremque facilis eos velit beatae molestias eum laborum, vero a dicta aliquid veritatis labore libero itaque! Temporibus vero incidunt animi veritatis sapiente deserunt, voluptas, aspernatur reiciendis iusto, quaerat cumque distinctio! Odit nostrum delectus iste, ad voluptatibus repellat tempora adipisci voluptatum distinctio. Tenetur recusandae eligendi, dolore officiis sint odit adipisci deserunt earum?
             </p>
           </div>
         </div>

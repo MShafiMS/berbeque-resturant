@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Arizonia&family=IBM+Plex+Sans:wght@400;700&family=PT+Serif+Caption&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&family=IBM+Plex+Sans:wght@400;700&family=Noto+Serif&family=PT+Serif+Caption&display=swap");
 
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Arizonia", cursive,
-    "IBM Plex Sans", sans-serif, "PT Serif Caption", serif, "Segoe UI", "Roboto",
-    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    "Noto Serif", serif, "IBM Plex Sans", sans-serif, "PT Serif Caption", serif,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

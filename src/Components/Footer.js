@@ -51,7 +51,7 @@ const Footer = () => {
       </footer>
       <footer className="footer items-center lg:px-16 p-6 bg-[#0B0E13] border-t-[0.5px] border-[#1d2026] text-[#686f77]">
         <div className="items-center grid-flow-col mx-auto">
-          <p className="text-sm">© Royal Plate 2016. All rights reserved.</p>
+          <p className="text-sm">© Berbeque 2016. All rights reserved.</p>
         </div>
         <div className="grid-flow-col hidden lg:block gap-4 md:place-self-center md:justify-self-end">
           <a className="hover:text-primary cursor-pointer">HOME</a>

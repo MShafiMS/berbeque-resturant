@@ -69,12 +69,7 @@ const Slider = () => {
                   Baby showers
                 </p>
                 <p className="py-6 text-sm">
-                  Celebrate your special event in beautiful atmosphere of Royal
-                  Plate. Exquisite & creative cousine, friendly atmosphere and
-                  highly professional staff will make your special day beautiful
-                  & enjoyable. You can select from couple of pre-made menus for
-                  every occasion that should please many different palates or
-                  work with us to create your own menu.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, sit? Corrupti sunt omnis aliquid ullam quo obcaecati laboriosam ducimus nam maxime, id maiores unde facere tempore impedit quibusdam molestias sint expedita, quisquam labore soluta assumenda saepe voluptatem necessitatibus beatae. Corporis maxime reiciendis aliquid magnam perspiciatis, nisi explicabo dicta inventore sit incidunt eos voluptate laborum, itaque iure qui nam voluptatem porro.
                 </p>
                 <button className="uppercase font-sub border-b border-secondary text-2xl">
                   More Details ➧
@@ -125,12 +120,7 @@ const Slider = () => {
                   Baby showers
                 </p>
                 <p className="py-6 text-sm">
-                  Celebrate your special event in beautiful atmosphere of Royal
-                  Plate. Exquisite & creative cousine, friendly atmosphere and
-                  highly professional staff will make your special day beautiful
-                  & enjoyable. You can select from couple of pre-made menus for
-                  every occasion that should please many different palates or
-                  work with us to create your own menu.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, sit? Corrupti sunt omnis aliquid ullam quo obcaecati laboriosam ducimus nam maxime, id maiores unde facere tempore impedit quibusdam molestias sint expedita, quisquam labore soluta assumenda saepe voluptatem necessitatibus beatae. Corporis maxime reiciendis aliquid magnam perspiciatis, nisi explicabo dicta inventore sit incidunt eos voluptate laborum, itaque iure qui nam voluptatem porro.
                 </p>
                 <button className="uppercase font-sub border-b border-secondary text-2xl">
                   More Details ➧
@@ -179,12 +169,7 @@ const Slider = () => {
                   Baby showers
                 </p>
                 <p className="py-6 text-sm">
-                  Celebrate your special event in beautiful atmosphere of Royal
-                  Plate. Exquisite & creative cousine, friendly atmosphere and
-                  highly professional staff will make your special day beautiful
-                  & enjoyable. You can select from couple of pre-made menus for
-                  every occasion that should please many different palates or
-                  work with us to create your own menu.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, sit? Corrupti sunt omnis aliquid ullam quo obcaecati laboriosam ducimus nam maxime, id maiores unde facere tempore impedit quibusdam molestias sint expedita, quisquam labore soluta assumenda saepe voluptatem necessitatibus beatae. Corporis maxime reiciendis aliquid magnam perspiciatis, nisi explicabo dicta inventore sit incidunt eos voluptate laborum, itaque iure qui nam voluptatem porro.
                 </p>
                 <button className="uppercase font-sub border-b border-secondary text-2xl">
                   More Details ➧
