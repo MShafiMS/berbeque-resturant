@@ -17,7 +17,7 @@ const Desert = () => {
               duration: 200,
             }}
             viewport={{ once: true }}
-            src="http://www.pixel-industry.com/html/royal-plate/img/pics/img-07.png"
+            src="https://i.ibb.co/2KNHgqc/4e4306fnutellalasgana-min-1.png"
             className="mx-auto "
             alt=""
           />

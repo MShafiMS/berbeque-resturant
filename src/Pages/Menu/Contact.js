@@ -8,7 +8,7 @@ import { HiOutlineMail } from "react-icons/hi";
 
 const Contact = () => {
   return (
-    <div className="mt-20 hero bg-[url('http://www.pixel-industry.com/html/royal-plate/img/pics/bkg-img6.jpg')]">
+    <div className="mt-20 hero bg-[url('https://images.unsplash.com/photo-1587574293340-e0011c4e8ecf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80')]">
       <div className=" py-16 bg-base-100 w-full lg:w-4/12">
         <div className="text-center w-full">
           <h1 className="text-secondary font-head text-4xl">Reservation</h1>

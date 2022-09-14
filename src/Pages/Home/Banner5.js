@@ -8,9 +8,10 @@ const Banner5 = () => {
       <div
         className="hero h-screen lg:h-[90vh] bg-cover"
         style={{
-          backgroundImage: `url("http://www.pixel-industry.com/html/royal-plate/img/pics/bkg-img5.jpg")`,
+          backgroundImage: `url("https://images.unsplash.com/photo-1547573854-74d2a71d0826?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")`,
         }}
       >
+        <div className="hero-overlay bg-black bg-opacity-60"></div>
         <motion.div
           initial={{ y: 200 }}
           whileInView={{ y: -20 }}
@@ -20,7 +21,7 @@ const Banner5 = () => {
         >
           <div>
             <h1 className="text-5xl text-primary font-head">
-              Visit us at Royal plate
+              Visit us at Berbeque
             </h1>
             <h1 className="my-5 text-4xl font-sub uppercase text-white">
               ENJOYABLE & COMFORTABLE

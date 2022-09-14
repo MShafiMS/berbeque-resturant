@@ -8,9 +8,10 @@ const Banner4 = () => {
       <div
         className="hero h-screen lg:h-[90vh] bg-cover"
         style={{
-          backgroundImage: `url("http://www.pixel-industry.com/html/royal-plate/img/pics/bkg-img4.jpg")`,
+          backgroundImage: `url("https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80")`,
         }}
       >
+      <div className="hero-overlay bg-black bg-opacity-60"></div>
         <motion.div
           initial={{ y: 200 }}
           whileInView={{ y: -20 }}

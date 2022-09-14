@@ -7,19 +7,17 @@ const Banner = () => {
   return (
     <>
       <div
-        className="banner-container h-[90vh] bg-fixed bg-no-repeat bg-cover"
-        style={{
-          backgroundImage: `url("http://www.pixel-industry.com/html/royal-plate/img/slider/slide01.jpg")`,
-        }}
+        className="banner-container h-[90vh] bg-fixed bg-no-repeat bg-cover bg-[url('https://images.unsplash.com/photo-1527224538127-2104bb71c51b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80')]"
       >
-        <div className="banner-content flex flex-row items-center gap-10 py-24 justify-between text-center text-neutral-content">
-          <div className="w-10/12 hidden lg:block">
-            <img src={slide1} alt="" />
+        
+        <div className="banner-content h-[90vh] flex flex-row items-center gap-10 py-24 justify-between text-center text-neutral-content">
+          <div className="w-7/12 self-start hidden lg:block">
+            <img src={slide1} className='w-96' alt="" />
           </div>
           <div className="w-full">
-            <h1 className="text-5xl text-primary font-head">Discover</h1>
+            <h1 className="text-5xl text-primary drop-shadow-xl font-head">Discover</h1>
             <h1 className="mb-5 text-5xl font-sub uppercase text-white">
-              Royale Plate
+              Berbeque
             </h1>
             <div className="text-primary flex items-center">
               <div className="w-full">
@@ -48,8 +46,8 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="w-10/12 hidden lg:block">
-            <img src={slide2} alt="" />
+          <div className="w-7/12 self-start hidden lg:block">
+            <img src={slide2} className='w-96' alt="" />
           </div>
         </div>
       </div>

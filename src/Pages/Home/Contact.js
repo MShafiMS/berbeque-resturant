@@ -13,7 +13,7 @@ const Contact = () => {
         <div className="w-11/12 hidden lg:block">
           <img
             className="w-full"
-            src="http://www.pixel-industry.com/html/royal-plate/img/pics/img-02.jpg"
+            src="https://images.unsplash.com/photo-1554679665-f5537f187268?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
             alt=""
           />
         </div>
@@ -116,7 +116,7 @@ const Contact = () => {
         <div className="w-11/12 hidden lg:block">
           <img
             className="w-full"
-            src="http://www.pixel-industry.com/html/royal-plate/img/pics/img-03.jpg"
+            src="https://images.unsplash.com/photo-1578474846511-04ba529f0b88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
             alt=""
           />
         </div>

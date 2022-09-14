@@ -13,16 +13,16 @@ const Navbar = () => {
   return (
     <div>
       <div className="lg:hidden bg-black">
-        <div className="py-5 w-full">
+        <div className="pb-5 w-full">
           <a className="btn hover:bg-opacity-0 btn-ghost block lg:hidden normal-case text-xl">
             <img
-              src="http://www.pixel-industry.com/html/royal-plate/img/logo.png"
-              className="w-32 mx-auto"
+              src="https://raw.githubusercontent.com/MShafiMS/admission/d012ae18ebac5f6b6a2e94d3cecfdbe6d1eb4c97/bbq.svg"
+              className="w-36 mx-auto"
               alt=""
             />
           </a>
         </div>
-        <div className="block w-11/12 mx-auto mt-8">
+        <div className="block w-11/12 mx-auto mt-12">
           <div className="dropdown w-full my-4">
             <label
               tabIndex={0}
@@ -70,15 +70,16 @@ const Navbar = () => {
         viewport={{ root: scrollRef }}
       >
         <div className="flex w-full items-center justify-between px-10 fixed z-50 text-white">
-          <div>
-            <a className="btn btn-ghost hidden lg:block normal-case text-xl">
+        <div>
+            <a className="hidden lg:inline normal-case">
               <img
-                src="http://www.pixel-industry.com/html/royal-plate/img/logo.png"
+                src="https://raw.githubusercontent.com/MShafiMS/admission/d012ae18ebac5f6b6a2e94d3cecfdbe6d1eb4c97/bbq.svg"
                 alt=""
+                className="w-44 drop-shadow-xl"
               />
             </a>
           </div>
-          <div className="hidden lg:flex mt-10">
+          <div className="hidden lg:flex">
             <ul className="menu menu-horizontal uppercase">
               <li>
                 <NavLink
@@ -154,17 +155,15 @@ const Navbar = () => {
         whileInView={{ opacity: 0 }}
         viewport={{ root: scrollRef }}
       >
-        <div className="lg:flex py-4 hidden bg-black bg-opacity-90 w-full items-center justify-between gap-7 px-10 fixed z-50 text-white">
+        <div className="lg:flex hidden bg-black bg-opacity-90 w-full items-center justify-between gap-7 px-10 fixed z-50 text-white">
           <div>
-            <div>
-              <a className="btn btn-ghost hidden lg:block normal-case text-xl">
-                <img
-                  src="http://www.pixel-industry.com/html/royal-plate/img/logo.png"
-                  alt=""
-                  className="h-12"
-                />
-              </a>
-            </div>
+            <a className="hidden lg:inline normal-case">
+              <img
+                src="https://raw.githubusercontent.com/MShafiMS/admission/d012ae18ebac5f6b6a2e94d3cecfdbe6d1eb4c97/bbq.svg"
+                alt=""
+                className="h-20"
+              />
+            </a>
           </div>
           <div className="hidden lg:flex">
             <ul className="menu menu-horizontal uppercase">

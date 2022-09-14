@@ -16,7 +16,7 @@ const Offer = () => {
               viewport={{ once: true }}
               className="hero h-[250px]"
               style={{
-                backgroundImage: `url("http://www.pixel-industry.com/html/royal-plate/img/gallery/gallery-1s.jpg")`,
+                backgroundImage: `url("https://images.unsplash.com/photo-1604909052868-dd2ef1e53daa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80")`,
               }}
             >
               <div className="hero-content text-center duration-300 hover:bg-opacity-60 hover:bg-black w-full h-full text-neutral-content">
@@ -40,7 +40,7 @@ const Offer = () => {
               viewport={{ once: true }}
               className="hero h-[250px]"
               style={{
-                backgroundImage: `url("http://www.pixel-industry.com/html/royal-plate/img/gallery/gallery-2s.jpg")`,
+                backgroundImage: `url("https://images.unsplash.com/photo-1625943912749-7f75dc0d7a01?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80")`,
               }}
             >
               <div className="hero-content text-center duration-300 hover:bg-opacity-60 hover:bg-black w-full h-full text-neutral-content">
@@ -64,7 +64,7 @@ const Offer = () => {
               viewport={{ once: true }}
               className="hero h-[250px]"
               style={{
-                backgroundImage: `url("http://www.pixel-industry.com/html/royal-plate/img/gallery/gallery-3s.jpg")`,
+                backgroundImage: `url("https://images.unsplash.com/photo-1604296703995-97dc3ded7f9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=935&q=80")`,
               }}
             >
               <div className="hero-content text-center duration-300 hover:bg-opacity-60 hover:bg-black w-full h-full text-neutral-content">
@@ -88,7 +88,7 @@ const Offer = () => {
               viewport={{ once: true }}
               className="hero h-[250px]"
               style={{
-                backgroundImage: `url("http://www.pixel-industry.com/html/royal-plate/img/gallery/gallery-4s.jpg")`,
+                backgroundImage: `url("https://images.unsplash.com/photo-1596097650412-42feabbcff42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80")`,
               }}
             >
               <div className="hero-content text-center duration-300 hover:bg-opacity-60 hover:bg-black w-full h-full text-neutral-content">

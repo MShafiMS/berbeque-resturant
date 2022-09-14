@@ -10,11 +10,18 @@ const Banner2 = () => {
       }}
     >
       <div className="flex flex-row gap-6 w-full">
-        <img
-          className="my-12 w-72 hidden lg:block"
-          src="http://www.pixel-industry.com/html/royal-plate/img/pics/spices-left.png"
-          alt=""
-        />
+        <div>
+          <img
+            className="my-12 w-[550px] hidden lg:block"
+            src="https://www.freepnglogos.com/uploads/food-png/food-plate-png-transparent-image-pngpix-14.png"
+            alt=""
+          />
+          <img
+            className="my-12 w-[550px] hidden lg:block"
+            src="https://www.freepnglogos.com/uploads/food-png/food-sutherland-foodservice-12.png"
+            alt=""
+          />
+        </div>
         <div
           className="w-full hero border-[16px] border-[#131822] shadow-lg shadow-black"
           style={{
@@ -46,11 +53,18 @@ const Banner2 = () => {
             </p>
           </div>
         </div>
-        <img
-          className="my-12 w-72 hidden lg:block"
-          src="http://www.pixel-industry.com/html/royal-plate/img/pics/spices-right.png"
-          alt=""
-        />
+        <div>
+          <img
+            className="my-12 w-[550px] hidden lg:block"
+            src="https://www.freepnglogos.com/uploads/food-png/food-home-nanoosh-20.png"
+            alt=""
+          />
+          <img
+            className="my-12 w-[550px] hidden lg:block"
+            src="https://www.freepnglogos.com/uploads/food-png/food-plate-png-transparent-image-pngpix-2.png"
+            alt=""
+          />
+        </div>
       </div>
     </div>
   );

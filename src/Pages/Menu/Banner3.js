@@ -5,7 +5,8 @@ import { GiKnifeFork } from "react-icons/gi";
 const Banner3 = () => {
   return (
     <>
-      <div className="hero h-screen lg:h-[85vh] bg-cover bg-[url('http://www.pixel-industry.com/html/royal-plate/img/pics/bkg-img11.jpg')] bg-left">
+      <div className="hero h-screen lg:h-[85vh] bg-cover bg-[url('https://images.unsplash.com/photo-1544986581-efac024faf62?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')] bg-left">
+        <div className="hero-overlay bg-black bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <motion.div
             initial={{ y: 200 }}

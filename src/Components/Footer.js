@@ -5,10 +5,11 @@ import { GrFacebookOption, GrTwitter } from "react-icons/gr";
 const Footer = () => {
   return (
     <>
-      <footer className="footer footer-center p-10 bg-[#0B0E13] text-white bg-no-repeat relative pt-24 bg-[url('http://www.pixel-industry.com/html/royal-plate/img/pics/footer-bkg-img1.png'),_url('http://www.pixel-industry.com/html/royal-plate/img/pics/footer-bkg-img2.png')] bg-[position:bottom_left,_bottom_right]">
-        <div className="text-gray-400 mb-10">
+      <footer className="footer footer-center p-10 bg-[#0B0E13] text-white bg-no-repeat relative bg-[url('http://www.pixel-industry.com/html/royal-plate/img/pics/footer-bkg-img1.png'),_url('http://www.pixel-industry.com/html/royal-plate/img/pics/footer-bkg-img2.png')] bg-[position:bottom_left,_bottom_right]">
+        <div className="text-gray-400">
           <img
-            src="http://www.pixel-industry.com/html/royal-plate/img/logo.png"
+            src="https://raw.githubusercontent.com/MShafiMS/admission/d012ae18ebac5f6b6a2e94d3cecfdbe6d1eb4c97/bbq.svg"
+            className="w-48"
             alt=""
           />
           <p>22 Royal Street, Sundance Avenue, New York</p>
